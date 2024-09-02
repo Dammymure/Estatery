@@ -16,6 +16,12 @@ import Bed from '../images/icons/Bed.png'
 import Bath from '../images/icons/Bath.png'
 import Meter from '../images/icons/Square Meters.png'
 import Fav from '../images/icons/Favorited.png'
+import Check from '../images/icons/housecheck.png'
+import Dollar from '../images/icons/dollar.png'
+import Percent from '../images/icons/percent.png'
+import Locate from '../images/icons/locate.png'
+import Play from '../images/icons/play.png'
+import Notes from '../images/icons/notes.png'
 import Footer from '../components/Footer'
 
 function Home() {
@@ -27,10 +33,10 @@ function Home() {
           <div className='flex pb-10 md:pb-0  md:h-screen sm:relative'>
             <div className='bg-gradient-to-b from-purple-300/40 sm:pl-32 sm:pr-10 sm:pt-20 pt-10 w-screen  md:w-[50%] '>
 
-            <div className=''>
+            <div className='z-0'>
               <h1 className='text-5xl sm:text-5xl text-center sm:text-left font-semibold px-2 md:px-0'>
-                <span className='before:z-0 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block mx-3'>
-                  <span className='relative text-white z-0'>Buy,</span> 
+                <span className='before:z-20 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block mx-3'>
+                  <span className='relative text-white z-20'>Buy,</span> 
                   </span> 
                 <span className='before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block'>
                   <span className='relative text-white'>rent,</span> 
@@ -181,7 +187,7 @@ function Home() {
             </div>
             <div className='md:w-[60%] md:grid md:grid-cols-2 grid-cols-1 md:gap-x-3 md:gap-y-10 *:rounded-md *:p-2'>
               <div className='hover:bg-purple-100'>
-                <img src={Search1} alt="" />
+                <img src={Check} alt="" />
                 <h1 className='font-semibold py-3'>Property Insurance</h1>
                 
                 <p className='text-sm'>We offer our customer property protection of liability coverage and insurance for their better life.</p>
@@ -189,17 +195,17 @@ function Home() {
                 
               </div>
               <div className='hover:bg-purple-100'>
-                <img src={Search1} alt="" />
+                <img src={Dollar} alt="" />
                 <h1 className='font-semibold py-3'>Best Price</h1>
                 <p className='text-sm'>Not sure what  you should be charging for your property? No need to worry, let us do the numbers for you.</p>
               </div>
               <div className='hover:bg-purple-100'>
-                <img src={Search1} alt="" />
+                <img src={Percent} alt="" />
                 <h1 className='font-semibold py-3'>Lowest Commission</h1>
                 <p className='text-sm'>You no longer have to negotiate commissions and haggle with other agents it only cost 2%!</p>
               </div>
               <div className='hover:bg-purple-100'>
-                <img src={Search1} alt="" />
+                <img src={Locate} alt="" />
                 <h1 className='font-semibold py-3'>Overall Control</h1>
                 <p className='text-sm'>We offer our customer property protection of liability coverage and insurance for their better life.</p>
               </div>
@@ -429,7 +435,7 @@ function Home() {
             <div className='flex md:justify-center border-b-[1px] border-slate-700 overflow-x-auto md:overflow-x-visible  snap-x snap-mandatory space-x-5 px-2 py-10'>
               <div className='flex  md:flex gap-3 bg-purple-400 p-3 snap-center rounded-md w-80'>
                 <div className='w-40'>
-                  <img className='w-40' src={Fav} alt="" />
+                  <img className='w-40' src={Play} alt="" />
                 </div>
                 <div>
                   <h2 className='text-white font-semibold'>Virtual home tour</h2>
@@ -438,20 +444,20 @@ function Home() {
               </div>
               <div className='flex md:flex gap-3 bg-white p-3 snap-center rounded-md w-80'>
                 <div className='w-40'>
-                  <img className='w-40' src={Fav} alt="" />
+                  <img className='w-40' src={Check} alt="" />
                 </div>
                 <div>
                   <h2>Virtual home tour</h2>
-                  <p className='text-sm text-slate-600'>You can communicate directly with landlords and we provide you with virtual tour before you buy or rent the property.</p>
+                  <p className='text-sm text-slate-600'>Browse thousands of properties, save your favorites and set up search alerts so you don’t miss the best home deal!</p>
                 </div>
               </div>
               <div className='flex md:flex gap-3 bg-slate-600/65 p-3 snap-center rounded-md w-80'>
                 <div className='w-40'>
-                  <img className='w-40' src={Fav} alt="" />
+                  <img className='w-40' src={Notes} alt="" />
                 </div>
                 <div>
                   <h2 className='text-white'>Virtual home tour</h2>
-                  <p className='text-sm text-slate-300'>You can communicate directly with landlords and we provide you with virtual tour before you buy or rent the property.</p>
+                  <p className='text-sm text-slate-300'>Find your dream house? You just need to do a little to no effort and you can start move in to your new dream home!</p>
                 </div>
               </div>
             </div>

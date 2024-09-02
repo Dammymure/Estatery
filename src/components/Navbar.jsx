@@ -32,8 +32,11 @@ function Navbar() {
                         <span><img className={`${dropdown ? "rotate-180 " : ""} transition-all duration-300 ease-linear w-6`} src={Arrow} alt="" /></span>
 
                     {dropdown && 
-                    <div className='bg-black h-20 z-50 absolute w-full sm:w-40 top-[64px]'>
-                        <h1 className='text-white'>1</h1>
+                    <div className='bg-white z-50 absolute w-full sm:w-40 top-[64px] divide-y-[1px]'>
+                        <div className='text-center py-2'>1</div>
+                        <div className='text-center py-2'>1</div>
+                        <div className='text-center py-2'>1</div>
+                        <div className='text-center py-2'>1</div>
                     </div>
                     }
                     </li>
@@ -45,9 +48,12 @@ function Navbar() {
                         <span><img className={`${dropdown1 ? "rotate-180 " : ""} transition-all duration-300 ease-linear w-6`} src={Arrow} alt="" /></span>
 
                         {dropdown1 && 
-                    <div className='bg-black h-20 z-50 absolute w-full sm:w-40 top-[64px]'>
-                        <h1 className='text-white'>2</h1>
-                    </div>
+                    <div className='bg-white z-50 absolute w-full sm:w-40 top-[64px] divide-y-[1px]'>
+                    <div className='text-center py-2'>1</div>
+                    <div className='text-center py-2'>1</div>
+                    <div className='text-center py-2'>1</div>
+                    <div className='text-center py-2'>1</div>
+                </div>
                     } 
 
                     </li>
